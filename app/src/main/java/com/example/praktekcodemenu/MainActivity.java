@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         // 2. Tombol Email (Membuka aplikasi Gmail / Email)
         btnEmail.setOnClickListener(v -> {
             Intent intent = new Intent(Intent.ACTION_SENDTO);
-            intent.setData(Uri.parse("mailto:admin@praktekcodemenu.com"));
+            intent.setData(Uri.parse("mailto:rizkyadjiess44@gmail.com"));
             intent.putExtra(Intent.EXTRA_SUBJECT, "Pesan dari Aplikasi Praktek Code Menu");
             try {
                 startActivity(intent);
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         // 3. Tombol No Telp (Membuka aplikasi telepon bawaan)
         btnTelp.setOnClickListener(v -> {
             Intent intent = new Intent(Intent.ACTION_DIAL);
-            intent.setData(Uri.parse("tel:081234567890"));
+            intent.setData(Uri.parse("tel:082122387470"));
             try {
                 startActivity(intent);
             } catch (Exception e) {
